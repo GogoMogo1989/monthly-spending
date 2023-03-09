@@ -17,19 +17,23 @@
       <div class="invoice-type">
         <label>Számla típus:</label>
         <select id="type">
-          <option value="invoice">Kiadás</option>
-          <option value="payment">Bevétel</option>
+          <option value="Kiadás">Kiadás</option>
+          <option value="Bevétel">Bevétel</option>
         </select>
       </div>
-      <div class="">
+      <div class="comment">
         <label>Megjegyzés:</label>
         <input type="text" id="comment">
       </div>
       <div class="field">
-        <label>Összeg</label>
+        <label>Összeg (Ft)</label>
         <input type="number" id="sum">
       </div>
       <button>Hozzáad</button>
+      <div class="allmoney">
+        <label for="" >Össz összeg:</label>
+        <input type="number" id="allmoney">
+      </div>
     </form>
     <ul class="item-list">
       
@@ -37,6 +41,6 @@
   </div>
 
 
-  <script type="module" src='app.js'></script>
+  <script type="module" src='/public/app.js'></script>
 </body>
 </html>
