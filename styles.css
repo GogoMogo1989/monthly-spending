@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+    }
+    a{
+    text-decoration: none;
+    }
+    a img {
+    border: none;
+    }
+    
+    button,
+    a {
+    cursor: pointer;
+    color: inherit;
+    }
+    
+    textarea {
+    resize: none;
+    }
+    
+    button,
+    textarea,
+    select {
+    appearance: none !important;
+    border-radius: 0;
+    }
+
+    .wrapper{
+        max-width: 960px;
+        margin: 0 auto;
+      }
+      h1{
+        margin: 40px auto;
+        text-align: center;
+      }
+      .main{
+        max-width: 960px;
+        margin: 0 auto;
+        text-align: center;
+      }
+      label{
+        display: block;
+        font-weight: bold;
+        font-size: 0.8em;
+        color: #333;
+        margin: 16px 0 6px;
+      }
+      input, select{
+        padding: 6px;
+        border: 1px solid #e1e1e1;
+        border-radius: 4px;
+      }
+      .invoice-type{
+        display: inline-block;
+        margin: 0 10px;
+      }
+      button{
+        color: white;
+        border: 0;
+        background: blue;
+        padding: 6px;
+        min-width: 80px;
+        border-radius: 4px;
+      }
+      form{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
