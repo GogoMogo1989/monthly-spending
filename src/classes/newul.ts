@@ -1,4 +1,5 @@
 import { Spending } from "./spending.js";
+import { Revenue } from "./revenue.js";
 
 export class NewUL{
 
@@ -8,10 +9,10 @@ export class NewUL{
         this.container = container
     }
 
-    render(item: Spending, heading: string, position: 'start'  | "end"){
+    render(item: Spending | Revenue, heading: string, position: 'start'  | "end"){
         const li = document.createElement('li');
         const p =document.createElement("p");
-        const p2 = document.createElement("p2");
+        const p2 = document.createElement("p");
 
         p.innerText = heading;
         li.append(p)

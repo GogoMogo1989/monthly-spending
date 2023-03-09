@@ -4,6 +4,6 @@ export class Revenue {
         this.sum = sum;
     }
     format() {
-        return ` Megjegyzés:${this.comment} Összeg: ${this.sum} Ft`;
+        return `Megjegyzés:${this.comment} Összeg: ${this.sum} Ft`;
     }
 }

@@ -5,7 +5,7 @@ export class NewUL {
     render(item, heading, position) {
         const li = document.createElement('li');
         const p = document.createElement("p");
-        const p2 = document.createElement("p2");
+        const p2 = document.createElement("p");
         p.innerText = heading;
         li.append(p);
         p2.innerText = item.format();
